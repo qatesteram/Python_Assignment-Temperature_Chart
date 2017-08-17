@@ -1,0 +1,12 @@
+start = 0
+end = 105
+increment = 5
+def main():
+    print('Table conversion of Celsius to Farenheit between 0 through 100 degrees:')
+    print('')
+    print('Celsius\t   Farenheit')
+    print('_____________________')
+    for Celsius in range (start, end, increment):
+        Farenheit = (9 / 5) * Celsius + 32
+        print(Celsius, '\t', format(Farenheit, '.1f'))
+main()
